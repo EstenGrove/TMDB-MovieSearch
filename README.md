@@ -1,28 +1,5 @@
-Architecture
+## TMDB Movie Search App
 
-                            App.vue(root)
-                           /       \
-                      nav.vue     homePage.vue-- userProfile.vue
-                                 /                       \
-                    inTheatres.vue                      favorites.vue
-                    /             \
-            genres.vue          nowPlaying.vue
+Web app built with Vue.js, Firebase real-time database and the TMDB Movie Search API for gathering data. Users can search for movies and shows by categories including: New Releases, Now Playing, Genre, TV Shows and more. They're also able to favorite movies and TV Shows to easily pull up again later. 
 
-Color Palette:
-
--Primary Palette:
-Main: #e84855
-Accent: #5cbcea
-
-#e84855 - FLATRED ACCENTS
-#d7263d - MAIN Vermillion
-#eb2f64 - BRIGHT accents
-#c7bfc5 - main font grey/white
-
-#5c75ea - rgb(92, 117, 234)
-#8a5cea - rgb(138, 92, 234)
-#d7263d - rgb(215, 38, 61)
-#c7bfc5 - rgb(199, 191, 197)
-#e84855 - rgb(232, 72, 85)
-#5cbcea - rgb(92, 188, 234)
-#eaecef - rgb(234,236,239) - light border grey
+![tmdb-img](https://user-images.githubusercontent.com/41505038/51366940-8ed8a700-1aa5-11e9-9cdb-84ee50d140b1.png)
